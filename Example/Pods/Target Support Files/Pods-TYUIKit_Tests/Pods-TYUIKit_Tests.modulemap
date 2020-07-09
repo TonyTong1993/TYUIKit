@@ -1,0 +1,6 @@
+framework module Pods_TYUIKit_Tests {
+  umbrella header "Pods-TYUIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
