@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TYTestTableViewCell.h"
 #import "UIButton+TYExtension.h"
 
 FOUNDATION_EXPORT double TYUIKitVersionNumber;
