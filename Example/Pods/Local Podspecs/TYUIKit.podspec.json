@@ -28,11 +28,11 @@
   },
   "subspecs": [
     {
-      "name": "TYUIExtentsion",
+      "name": "UIExtensions",
       "source_files": "TYUIKit/Classes/UIExtensions/*.*"
     },
     {
-      "name": "TYUIWidget",
+      "name": "UIWidgets",
       "source_files": "TYUIKit/Classes/UIWidgets/*.*"
     }
   ]

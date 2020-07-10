@@ -1,9 +1,9 @@
 PODS:
   - TYUIKit (0.1.1):
-    - TYUIKit/TYUIExtentsion (= 0.1.1)
-    - TYUIKit/TYUIWidget (= 0.1.1)
-  - TYUIKit/TYUIExtentsion (0.1.1)
-  - TYUIKit/TYUIWidget (0.1.1)
+    - TYUIKit/UIExtensions (= 0.1.1)
+    - TYUIKit/UIWidgets (= 0.1.1)
+  - TYUIKit/UIExtensions (0.1.1)
+  - TYUIKit/UIWidgets (0.1.1)
 
 DEPENDENCIES:
   - TYUIKit (from `../`)
@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TYUIKit: f0c67fe546747932e356b4134ba219aef9144d47
+  TYUIKit: b51a25cbe024a4b4f69f3cdd1bd9345ebae4cb77
 
-PODFILE CHECKSUM: 6bdceacbf496da9b08a0fc9f6d6366125f2d8f9f
+PODFILE CHECKSUM: 5203d9047909c81cd49d7828bdb8f240237dffb1
 
 COCOAPODS: 1.9.2

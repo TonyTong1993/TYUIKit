@@ -8,7 +8,6 @@
 
 #import "TYViewController.h"
 #import <TYUIKit/TYTestViewController.h>
-#import <TYUIKit/TYTestViewController.h>
 @interface TYViewController () <UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 

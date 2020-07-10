@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'TYUIKit'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.summary          = 'A short description of TYUIKit.'
     
     # This description is used to generate tags and improve search results.
@@ -32,12 +32,12 @@ Pod::Spec.new do |s|
     
     s.source_files = 'TYUIKit/Classes/**/*'
         
-    s.subspec 'TYUIExtentsion' do |es|
+    s.subspec 'UIExtensions' do |es|
         es.source_files = 'TYUIKit/Classes/UIExtensions/*.*'
         #    es.dependency 'RestKit/CoreData'
     end
     
-    s.subspec 'TYUIWidget' do |es|
+    s.subspec 'UIWidgets' do |es|
         es.source_files = 'TYUIKit/Classes/UIWidgets/*.*'
         #    es.dependency 'RestKit/CoreData'
     end
@@ -45,6 +45,7 @@ Pod::Spec.new do |s|
     s.resource_bundles = {
         'TYUIKit' => ['TYUIKit/Assets/images/*.png','TYUIKit/Assets/xibs/*.xib','Example/TYUIKit/Images.xcassets']
     }
+    
     #   s.resources = 'TYUIKit/TYUIKitBundle.bundle'
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
