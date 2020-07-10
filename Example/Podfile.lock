@@ -1,5 +1,9 @@
 PODS:
-  - TYUIKit (0.1.1)
+  - TYUIKit (0.1.1):
+    - TYUIKit/TYUIExtentsion (= 0.1.1)
+    - TYUIKit/TYUIWidget (= 0.1.1)
+  - TYUIKit/TYUIExtentsion (0.1.1)
+  - TYUIKit/TYUIWidget (0.1.1)
 
 DEPENDENCIES:
   - TYUIKit (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TYUIKit: 341d8be9045fe7da5c98f76cbc6505a08efc4d72
+  TYUIKit: f0c67fe546747932e356b4134ba219aef9144d47
 
 PODFILE CHECKSUM: 6bdceacbf496da9b08a0fc9f6d6366125f2d8f9f
 

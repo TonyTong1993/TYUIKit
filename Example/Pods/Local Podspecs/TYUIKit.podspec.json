@@ -22,7 +22,18 @@
   "resource_bundles": {
     "TYUIKit": [
       "TYUIKit/Assets/images/*.png",
-      "TYUIKit/Assets/xibs/*.xib"
+      "TYUIKit/Assets/xibs/*.xib",
+      "Example/TYUIKit/Images.xcassets"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "TYUIExtentsion",
+      "source_files": "TYUIKit/Classes/UIExtensions/*.*"
+    },
+    {
+      "name": "TYUIWidget",
+      "source_files": "TYUIKit/Classes/UIWidgets/*.*"
+    }
+  ]
 }

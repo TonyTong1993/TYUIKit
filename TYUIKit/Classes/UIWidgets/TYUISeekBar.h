@@ -1,6 +1,6 @@
 //
-//  TYTestTableViewCell.h
-//  Pods
+//  TYUISeekBar.h
+//  TYUIKit
 //
 //  Created by 童万华 on 2020/7/10.
 //
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TYTestTableViewCell : UITableViewCell
+@interface TYUISeekBar : UIView
 
 @end
 
