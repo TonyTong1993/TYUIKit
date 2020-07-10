@@ -7,9 +7,10 @@
 //
 
 #import "TYViewController.h"
-#import <TYUIKit/TYTestViewController.h>
+#import "TYDefaultTableViewCell.h"
+#import "TYTestViewController.h"
 @interface TYViewController () <UITableViewDataSource,UITableViewDelegate>
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) UITableView *tableView;
 
 @end
 
@@ -18,10 +19,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:self.tableView];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
+    NSBundle *bundle = nil;
+#if !FLAG_BUNDLE_RESOURCE
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"TYUIKit" ofType:@"bundle"];
+    bundle = [NSBundle bundleWithPath:path];
+#endif
+    UINib *nib = [UINib nibWithNibName:NSStringFromClass([TYDefaultTableViewCell class]) bundle:bundle];
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"TYDefaultTableViewCell"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,8 +49,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
-    cell.textLabel.text = @"hello world!";
+    TYDefaultTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TYDefaultTableViewCell"];
     return cell;
 }
 

@@ -7,12 +7,16 @@
 //
 
 #import "TYAppDelegate.h"
-
+#import "TYViewController.h"
 @implementation TYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+        // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [TYViewController new];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

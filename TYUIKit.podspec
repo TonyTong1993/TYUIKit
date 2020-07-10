@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'TYUIKit'
-    s.version          = '0.1.2'
+    s.version          = '0.1.3'
     s.summary          = 'A short description of TYUIKit.'
     
     # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '8.0'
     
-    s.source_files = 'TYUIKit/Classes/**/*'
+    s.source_files = 'TYUIKit/Classes/**/*','Example/TYUIKit/Controllers/*.{h,m}','Example/TYUIKit/Views/*.{h,m}'
         
     s.subspec 'UIExtensions' do |es|
         es.source_files = 'TYUIKit/Classes/UIExtensions/*.*'
@@ -42,10 +42,10 @@ Pod::Spec.new do |s|
         #    es.dependency 'RestKit/CoreData'
     end
     
-    s.resource_bundles = {
-        'TYUIKit' => ['TYUIKit/Assets/images/*.png','TYUIKit/Assets/xibs/*.xib','Example/TYUIKit/Images.xcassets']
+    s.ios.resource_bundle = {
+        'TYUIKit' => ['TYUIKit/Assets/images/*.png','TYUIKit/Assets/xibs/*.xib','Example/TYUIKit/Images.xcassets','Example/TYUIKit/Views/*.xib']
     }
-    
+    s.user_target_xcconfig = { 'FLAG_BUNDLE_RESOURCE' => 'YES' }
     #   s.resources = 'TYUIKit/TYUIKitBundle.bundle'
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
