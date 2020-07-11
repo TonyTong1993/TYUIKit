@@ -1,1 +1,0 @@
-../../../../TYUIKit/Views/TYDefaultTableViewCell.h

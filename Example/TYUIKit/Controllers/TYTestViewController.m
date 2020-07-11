@@ -25,6 +25,7 @@
     UINib *nib = [UINib nibWithNibName:NSStringFromClass([TYTestTableViewCell class]) bundle:bundle];
     [self.tableView registerNib:nib forCellReuseIdentifier:@"TYTestTableViewCell"];
     self.tableView.dataSource = self;
+    self.tableView.rowHeight = 80;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

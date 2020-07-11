@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'TYUIKit'
-    s.version          = '0.1.3'
+    s.version          = '0.1.4'
     s.summary          = 'A short description of TYUIKit.'
     
     # This description is used to generate tags and improve search results.
@@ -43,10 +43,9 @@ Pod::Spec.new do |s|
     end
     
     s.ios.resource_bundle = {
-        'TYUIKit' => ['TYUIKit/Assets/images/*.png','TYUIKit/Assets/xibs/*.xib','Example/TYUIKit/Images.xcassets','Example/TYUIKit/Views/*.xib']
+        'TYUIKit' => ['TYUIKit/Assets/images/*.png','TYUIKit/Assets/xibs/*.xib','Example/TYUIKit/TYUIKit.xcassets','Example/TYUIKit/Views/*.xib','Example/TYUIKit/Controllers/*.xib']
     }
-    s.user_target_xcconfig = { 'FLAG_BUNDLE_RESOURCE' => 'YES' }
-    #   s.resources = 'TYUIKit/TYUIKitBundle.bundle'
+    
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'

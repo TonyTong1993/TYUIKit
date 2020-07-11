@@ -25,11 +25,12 @@
 		EB0AF6F324B8CBE7005B18B0 /* TYDefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB0AF6ED24B8CBE6005B18B0 /* TYDefaultTableViewCell.xib */; };
 		EB0AF6F424B8CBE7005B18B0 /* TYDefaultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF6EE24B8CBE6005B18B0 /* TYDefaultTableViewCell.m */; };
 		EB0AF6F524B8CBE7005B18B0 /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF6F124B8CBE7005B18B0 /* TYViewController.m */; };
-		EBA5889B24B82AC1001CDC93 /* qctt_loading_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5889524B82AC1001CDC93 /* qctt_loading_gray@2x.png */; };
-		EBA5889C24B82AC1001CDC93 /* qctt_loading_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5889624B82AC1001CDC93 /* qctt_loading_0@2x.png */; };
-		EBA5889D24B82AC1001CDC93 /* qctt_news_toutiao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5889724B82AC1001CDC93 /* qctt_news_toutiao@3x.png */; };
-		EBA5889E24B82AC1001CDC93 /* qctt_news_toutiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA5889824B82AC1001CDC93 /* qctt_news_toutiao@2x.png */; };
-		EBA5889F24B82AC1001CDC93 /* TYTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA5889A24B82AC1001CDC93 /* TYTestTableViewCell.xib */; };
+		EB0AF6F724B94491005B18B0 /* TYUIKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0AF6F624B94491005B18B0 /* TYUIKit.xcassets */; };
+		EB0AF6FB24B94A09005B18B0 /* TYDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF6F924B94A08005B18B0 /* TYDemoViewController.m */; };
+		EB0AF6FC24B94A09005B18B0 /* TYDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB0AF6FA24B94A08005B18B0 /* TYDemoViewController.xib */; };
+		EB0AF70324B97A3B005B18B0 /* TYTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB0AF70224B97A3B005B18B0 /* TYTestTableViewCell.xib */; };
+		EB0AF70924B97AAE005B18B0 /* TYTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF70824B97AAE005B18B0 /* TYTestTableViewCell.m */; };
+		EB0AF70C24B97AB6005B18B0 /* TYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF70A24B97AB6005B18B0 /* TYTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,12 +75,15 @@
 		EB0AF6EF24B8CBE6005B18B0 /* TYDefaultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDefaultTableViewCell.h; sourceTree = "<group>"; };
 		EB0AF6F124B8CBE7005B18B0 /* TYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewController.m; sourceTree = "<group>"; };
 		EB0AF6F224B8CBE7005B18B0 /* TYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewController.h; sourceTree = "<group>"; };
-		EB3B78BD24B802FC00BF9E10 /* TYUIKitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYUIKitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBA5889524B82AC1001CDC93 /* qctt_loading_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qctt_loading_gray@2x.png"; sourceTree = "<group>"; };
-		EBA5889624B82AC1001CDC93 /* qctt_loading_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qctt_loading_0@2x.png"; sourceTree = "<group>"; };
-		EBA5889724B82AC1001CDC93 /* qctt_news_toutiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qctt_news_toutiao@3x.png"; sourceTree = "<group>"; };
-		EBA5889824B82AC1001CDC93 /* qctt_news_toutiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qctt_news_toutiao@2x.png"; sourceTree = "<group>"; };
-		EBA5889A24B82AC1001CDC93 /* TYTestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYTestTableViewCell.xib; sourceTree = "<group>"; };
+		EB0AF6F624B94491005B18B0 /* TYUIKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TYUIKit.xcassets; sourceTree = "<group>"; };
+		EB0AF6F824B94A08005B18B0 /* TYDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDemoViewController.h; sourceTree = "<group>"; };
+		EB0AF6F924B94A08005B18B0 /* TYDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDemoViewController.m; sourceTree = "<group>"; };
+		EB0AF6FA24B94A08005B18B0 /* TYDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TYDemoViewController.xib; sourceTree = "<group>"; };
+		EB0AF70224B97A3B005B18B0 /* TYTestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYTestTableViewCell.xib; sourceTree = "<group>"; };
+		EB0AF70724B97AAE005B18B0 /* TYTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTestTableViewCell.h; sourceTree = "<group>"; };
+		EB0AF70824B97AAE005B18B0 /* TYTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTestTableViewCell.m; sourceTree = "<group>"; };
+		EB0AF70A24B97AB6005B18B0 /* TYTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTestViewController.m; sourceTree = "<group>"; };
+		EB0AF70B24B97AB6005B18B0 /* TYTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTestViewController.h; sourceTree = "<group>"; };
 		FD733F16A3C57F34BFDFAB64 /* Pods-TYUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TYUIKit_Tests/Pods-TYUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,13 +110,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB3B78BA24B802FC00BF9E10 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -133,7 +130,6 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for TYUIKit */,
 				6003F5B5195388D20070C39A /* Tests */,
-				EB3B78BE24B802FC00BF9E10 /* TYUIKitBundle */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				55D3E6AE9E9A4876653A977F /* Pods */,
@@ -145,7 +141,6 @@
 			children = (
 				6003F58A195388D20070C39A /* TYUIKit_Example.app */,
 				6003F5AE195388D20070C39A /* TYUIKit_Tests.xctest */,
-				EB3B78BD24B802FC00BF9E10 /* TYUIKitBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,6 +167,7 @@
 				6003F59D195388D20070C39A /* TYAppDelegate.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				EB0AF6F624B94491005B18B0 /* TYUIKit.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for TYUIKit";
@@ -221,9 +217,12 @@
 		EB0AF6EC24B8CBE6005B18B0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EB0AF70724B97AAE005B18B0 /* TYTestTableViewCell.h */,
+				EB0AF70824B97AAE005B18B0 /* TYTestTableViewCell.m */,
 				EB0AF6EE24B8CBE6005B18B0 /* TYDefaultTableViewCell.m */,
 				EB0AF6EF24B8CBE6005B18B0 /* TYDefaultTableViewCell.h */,
 				EB0AF6ED24B8CBE6005B18B0 /* TYDefaultTableViewCell.xib */,
+				EB0AF70224B97A3B005B18B0 /* TYTestTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,38 +230,15 @@
 		EB0AF6F024B8CBE7005B18B0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EB0AF70B24B97AB6005B18B0 /* TYTestViewController.h */,
+				EB0AF70A24B97AB6005B18B0 /* TYTestViewController.m */,
 				EB0AF6F224B8CBE7005B18B0 /* TYViewController.h */,
 				EB0AF6F124B8CBE7005B18B0 /* TYViewController.m */,
+				EB0AF6F824B94A08005B18B0 /* TYDemoViewController.h */,
+				EB0AF6F924B94A08005B18B0 /* TYDemoViewController.m */,
+				EB0AF6FA24B94A08005B18B0 /* TYDemoViewController.xib */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		EB3B78BE24B802FC00BF9E10 /* TYUIKitBundle */ = {
-			isa = PBXGroup;
-			children = (
-				EBA5889424B82AC1001CDC93 /* images */,
-				EBA5889924B82AC1001CDC93 /* xibs */,
-			);
-			path = TYUIKitBundle;
-			sourceTree = "<group>";
-		};
-		EBA5889424B82AC1001CDC93 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				EBA5889524B82AC1001CDC93 /* qctt_loading_gray@2x.png */,
-				EBA5889624B82AC1001CDC93 /* qctt_loading_0@2x.png */,
-				EBA5889724B82AC1001CDC93 /* qctt_news_toutiao@3x.png */,
-				EBA5889824B82AC1001CDC93 /* qctt_news_toutiao@2x.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		EBA5889924B82AC1001CDC93 /* xibs */ = {
-			isa = PBXGroup;
-			children = (
-				EBA5889A24B82AC1001CDC93 /* TYTestTableViewCell.xib */,
-			);
-			path = xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +252,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				3E805E7EDDC31E513C65371A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,23 +281,6 @@
 			productReference = 6003F5AE195388D20070C39A /* TYUIKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EB3B78BC24B802FC00BF9E10 /* TYUIKitBundle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB3B78C224B802FC00BF9E10 /* Build configuration list for PBXNativeTarget "TYUIKitBundle" */;
-			buildPhases = (
-				EB3B78B924B802FC00BF9E10 /* Sources */,
-				EB3B78BA24B802FC00BF9E10 /* Frameworks */,
-				EB3B78BB24B802FC00BF9E10 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TYUIKitBundle;
-			productName = TYUIKitBundle;
-			productReference = EB3B78BD24B802FC00BF9E10 /* TYUIKitBundle.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -335,10 +293,6 @@
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
-					};
-					EB3B78BC24B802FC00BF9E10 = {
-						CreatedOnToolsVersion = 11.1;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -358,7 +312,6 @@
 			targets = (
 				6003F589195388D20070C39A /* TYUIKit_Example */,
 				6003F5AD195388D20070C39A /* TYUIKit_Tests */,
-				EB3B78BC24B802FC00BF9E10 /* TYUIKitBundle */,
 			);
 		};
 /* End PBXProject section */
@@ -368,10 +321,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0AF70324B97A3B005B18B0 /* TYTestTableViewCell.xib in Resources */,
 				EB0AF6F324B8CBE7005B18B0 /* TYDefaultTableViewCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				EB0AF6FC24B94A09005B18B0 /* TYDemoViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				EB0AF6F724B94491005B18B0 /* TYUIKit.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,39 +339,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB3B78BB24B802FC00BF9E10 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBA5889D24B82AC1001CDC93 /* qctt_news_toutiao@3x.png in Resources */,
-				EBA5889F24B82AC1001CDC93 /* TYTestTableViewCell.xib in Resources */,
-				EBA5889E24B82AC1001CDC93 /* qctt_news_toutiao@2x.png in Resources */,
-				EBA5889C24B82AC1001CDC93 /* qctt_loading_0@2x.png in Resources */,
-				EBA5889B24B82AC1001CDC93 /* qctt_loading_gray@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3E805E7EDDC31E513C65371A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/TYUIKit/TYUIKit.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TYUIKit.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		528C80449E93B5AD9AF5DFD1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -470,6 +396,9 @@
 				EB0AF6F424B8CBE7005B18B0 /* TYDefaultTableViewCell.m in Sources */,
 				EB0AF6F524B8CBE7005B18B0 /* TYViewController.m in Sources */,
 				6003F59E195388D20070C39A /* TYAppDelegate.m in Sources */,
+				EB0AF6FB24B94A09005B18B0 /* TYDemoViewController.m in Sources */,
+				EB0AF70C24B97AB6005B18B0 /* TYTestViewController.m in Sources */,
+				EB0AF70924B97AAE005B18B0 /* TYTestTableViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,13 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB3B78B924B802FC00BF9E10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +529,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYUIKit/TYUIKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"HOME=1",
+				);
 				INFOPLIST_FILE = "TYUIKit/TYUIKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
@@ -624,6 +551,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYUIKit/TYUIKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"HOME=1",
+				);
 				INFOPLIST_FILE = "TYUIKit/TYUIKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
@@ -680,87 +612,6 @@
 			};
 			name = Release;
 		};
-		EB3B78C024B802FC00BF9E10 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tony.TYUIKitBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		EB3B78C124B802FC00BF9E10 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tony.TYUIKitBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -787,15 +638,6 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB3B78C224B802FC00BF9E10 /* Build configuration list for PBXNativeTarget "TYUIKitBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB3B78C024B802FC00BF9E10 /* Debug */,
-				EB3B78C124B802FC00BF9E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

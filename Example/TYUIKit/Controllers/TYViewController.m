@@ -8,7 +8,7 @@
 
 #import "TYViewController.h"
 #import "TYDefaultTableViewCell.h"
-#import "TYTestViewController.h"
+#import "TYDemoViewController.h"
 @interface TYViewController () <UITableViewDataSource,UITableViewDelegate>
 @property (strong, nonatomic) UITableView *tableView;
 
@@ -26,7 +26,9 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     NSBundle *bundle = nil;
-#if !FLAG_BUNDLE_RESOURCE
+#if HOME
+    NSLog(@"主工程环境");
+#else
     NSString *path = [[NSBundle mainBundle] pathForResource:@"TYUIKit" ofType:@"bundle"];
     bundle = [NSBundle bundleWithPath:path];
 #endif
@@ -54,8 +56,12 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    TYTestViewController *vc = [TYTestViewController new];
-    [self presentViewController:vc animated:YES completion:nil];
+    TYDemoViewController *vc = [TYDemoViewController new];
+    if (self.navigationController) {
+        [self.navigationController pushViewController:vc animated:YES];
+    }else {
+        [self presentViewController:vc animated:YES completion:nil];
+    }
 }
 
 @end

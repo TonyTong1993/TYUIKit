@@ -1,6 +1,6 @@
 {
   "name": "TYUIKit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A short description of TYUIKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/TonyTong1993/TYUIKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TonyTong1993/TYUIKit.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -28,13 +28,11 @@
       "TYUIKit": [
         "TYUIKit/Assets/images/*.png",
         "TYUIKit/Assets/xibs/*.xib",
-        "Example/TYUIKit/Images.xcassets",
-        "Example/TYUIKit/Views/*.xib"
+        "Example/TYUIKit/TYUIKit.xcassets",
+        "Example/TYUIKit/Views/*.xib",
+        "Example/TYUIKit/Controllers/*.xib"
       ]
     }
-  },
-  "user_target_xcconfig": {
-    "FLAG_BUNDLE_RESOURCE": "YES"
   },
   "subspecs": [
     {
