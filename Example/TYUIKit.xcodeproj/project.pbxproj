@@ -609,6 +609,7 @@
 			baseConfigurationReference = 799D99DAC28C5CB05E591939 /* Pods-TYUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSET_PACK_MANIFEST_URL_PREFIX = "http://192.168.0.101/ORD/tags/";
 				DEVELOPMENT_TEAM = ZA734EWL3T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYUIKit/TYUIKit-Prefix.pch";
@@ -632,6 +633,7 @@
 			baseConfigurationReference = 3D34000AF06E077FDD66B282 /* Pods-TYUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSET_PACK_MANIFEST_URL_PREFIX = "http://192.168.0.101/ORD/tags/";
 				DEVELOPMENT_TEAM = ZA734EWL3T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYUIKit/TYUIKit-Prefix.pch";

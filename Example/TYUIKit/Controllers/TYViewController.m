@@ -52,6 +52,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     TYDefaultTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TYDefaultTableViewCell"];
+    cell.textLabel.text = [NSString stringWithFormat:@"------%zu",indexPath.row];
     return cell;
 }
 

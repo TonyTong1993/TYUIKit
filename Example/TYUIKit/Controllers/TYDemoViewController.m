@@ -10,7 +10,7 @@
 
 @interface TYDemoViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
-
+@property (nonatomic,assign) BOOL resourceAccessable;
 @end
 
 @implementation TYDemoViewController
@@ -31,11 +31,21 @@
     [super viewDidLoad];
         // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor = [UIColor whiteColor];
-    NSBundle *bundle = nil;
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"TYUIKit" ofType:@"bundle"];
-    bundle = [NSBundle bundleWithPath:path];
-    UIImage *image = [UIImage imageNamed:@"qctt_loading_0" inBundle:bundle compatibleWithTraitCollection:nil];
-    [self.imageView setImage:image];
+    
+    NSSet *set = [NSSet setWithObjects:@"uikit", nil];
+    NSBundleResourceRequest *request = [[NSBundleResourceRequest alloc] initWithTags:set];
+    [request beginAccessingResourcesWithCompletionHandler:^(NSError * _Nullable error) {
+        if (error) {
+            self.resourceAccessable = NO;
+            return ;
+        }
+        self.resourceAccessable = YES;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSBundle *bundle = request.bundle;
+            UIImage *image = [UIImage imageNamed:@"qctt_loading_0" inBundle:bundle compatibleWithTraitCollection:nil];
+            [self.imageView setImage:image];
+        });
+    }];
 }
 
 /*
