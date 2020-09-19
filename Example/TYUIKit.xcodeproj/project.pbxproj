@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23370AD60D3DDA1C9F981310 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = C83B1F190FBB951DFB2170CF /* Assets */; settings = {ASSET_TAGS = (t1, ); }; };
+		378ADE056C28C8CE3D1AC34C /* Pods_TYUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCE892B9264C9E3B50A32A9 /* Pods_TYUIKit_Tests.framework */; };
+		38D6648ED20683A70CBFF611 /* Pods_TYUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B897C51D95505E0AC96C5E8 /* Pods_TYUIKit_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,18 +23,27 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		77FB36980678C7D8B6C6DE1B /* libPods-TYUIKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 025F87B3A27800E9FB997A3F /* libPods-TYUIKit_Example.a */; };
-		A3DCC2D96078C22ABAA5FB47 /* libPods-TYUIKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FB096A3AF9CDE588DD36DF /* libPods-TYUIKit_Tests.a */; };
+		7ED1D9BB0F11210DADFE85C3 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = C45DFB60C52468818FAB9723 /* Assets */; settings = {ASSET_TAGS = (t1, ); }; };
+		9CFCB81F275FD5DE9623B136 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED68742C3B12458276033DC /* Assets */; settings = {ASSET_TAGS = (t1, ); }; };
+		C4017E50B6F0785F47680120 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 307BE870BAECE237816BB6AF /* Assets */; settings = {ASSET_TAGS = (t1, ); }; };
 		EB0AF6F324B8CBE7005B18B0 /* TYDefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB0AF6ED24B8CBE6005B18B0 /* TYDefaultTableViewCell.xib */; };
 		EB0AF6F424B8CBE7005B18B0 /* TYDefaultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF6EE24B8CBE6005B18B0 /* TYDefaultTableViewCell.m */; };
 		EB0AF6F524B8CBE7005B18B0 /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF6F124B8CBE7005B18B0 /* TYViewController.m */; };
-		EB0AF6F724B94491005B18B0 /* TYUIKit.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0AF6F624B94491005B18B0 /* TYUIKit.xcassets */; };
 		EB0AF6FB24B94A09005B18B0 /* TYDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF6F924B94A08005B18B0 /* TYDemoViewController.m */; };
 		EB0AF6FC24B94A09005B18B0 /* TYDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB0AF6FA24B94A08005B18B0 /* TYDemoViewController.xib */; };
 		EB0AF70324B97A3B005B18B0 /* TYTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB0AF70224B97A3B005B18B0 /* TYTestTableViewCell.xib */; };
 		EB0AF70924B97AAE005B18B0 /* TYTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF70824B97AAE005B18B0 /* TYTestTableViewCell.m */; };
 		EB0AF70C24B97AB6005B18B0 /* TYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF70A24B97AB6005B18B0 /* TYTestViewController.m */; };
 		EB0AF72124BCA5B5005B18B0 /* MCThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF72024BCA5B5005B18B0 /* MCThemeManager.m */; };
+		EB7582EC250BD01200321C1C /* MCTestViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7582EB250BD01200321C1C /* MCTestViewViewController.m */; };
+		EBB38C17250C74820034CCDE /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB38C16250C74820034CCDE /* UIColor+Extension.m */; };
+		EBB38C1A250C7BD80034CCDE /* UIView+TYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB38C19250C7BD80034CCDE /* UIView+TYExtension.m */; };
+		EBB38C1F250C7D510034CCDE /* UIWindow+TYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB38C1E250C7D510034CCDE /* UIWindow+TYExtension.m */; };
+		EBB38C21250C84EF0034CCDE /* jiakao_vip_bg_wgm_banner.webp in Resources */ = {isa = PBXBuildFile; fileRef = EBB38C20250C84EF0034CCDE /* jiakao_vip_bg_wgm_banner.webp */; };
+		EBB38C2A250C86E10034CCDE /* UIView+TYNibExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB38C29250C86E10034CCDE /* UIView+TYNibExtension.m */; };
+		EBB38C2D250CAFAF0034CCDE /* MCUScrollAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB38C2C250CAFAF0034CCDE /* MCUScrollAnimator.m */; };
+		EBB38C31250CB01C0034CCDE /* MCUNavigationBarScrollingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB38C30250CB01C0034CCDE /* MCUNavigationBarScrollingAnimator.m */; };
+		EBB38C34250CBA550034CCDE /* UIScrollView+TYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB38C33250CBA550034CCDE /* UIScrollView+TYExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025F87B3A27800E9FB997A3F /* libPods-TYUIKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYUIKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B897C51D95505E0AC96C5E8 /* Pods_TYUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED68742C3B12458276033DC /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Assets; path = ../Assets; sourceTree = "<group>"; };
 		2FF1642D7F61BC0413FAC614 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3D34000AF06E077FDD66B282 /* Pods-TYUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		307BE870BAECE237816BB6AF /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Assets; path = ../Assets; sourceTree = "<group>"; };
 		4CEF0E839DB939DC62B45F9E /* Pods-TYUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYUIKit_Tests/Pods-TYUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TYUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,16 +80,18 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		799D99DAC28C5CB05E591939 /* Pods-TYUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		731C7EEFCCFC5E63E7BE2A7C /* Pods-TYUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8FCE892B9264C9E3B50A32A9 /* Pods_TYUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6762591161461AF5E81EA68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AD2C927BE4D1EA9D1CE20E78 /* TYUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYUIKit.podspec; path = ../TYUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D2FB096A3AF9CDE588DD36DF /* libPods-TYUIKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYUIKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45DFB60C52468818FAB9723 /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Assets; path = ../Assets; sourceTree = "<group>"; };
+		C83B1F190FBB951DFB2170CF /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Assets; path = ../../TYUIKit/Assets; sourceTree = "<group>"; };
+		D5F0F3D716F55AAEB56D1E24 /* Pods-TYUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EB0AF6ED24B8CBE6005B18B0 /* TYDefaultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYDefaultTableViewCell.xib; sourceTree = "<group>"; };
 		EB0AF6EE24B8CBE6005B18B0 /* TYDefaultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDefaultTableViewCell.m; sourceTree = "<group>"; };
 		EB0AF6EF24B8CBE6005B18B0 /* TYDefaultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDefaultTableViewCell.h; sourceTree = "<group>"; };
 		EB0AF6F124B8CBE7005B18B0 /* TYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewController.m; sourceTree = "<group>"; };
 		EB0AF6F224B8CBE7005B18B0 /* TYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewController.h; sourceTree = "<group>"; };
-		EB0AF6F624B94491005B18B0 /* TYUIKit.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TYUIKit.xcassets; sourceTree = "<group>"; };
 		EB0AF6F824B94A08005B18B0 /* TYDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYDemoViewController.h; sourceTree = "<group>"; };
 		EB0AF6F924B94A08005B18B0 /* TYDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYDemoViewController.m; sourceTree = "<group>"; };
 		EB0AF6FA24B94A08005B18B0 /* TYDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TYDemoViewController.xib; sourceTree = "<group>"; };
@@ -88,6 +103,24 @@
 		EB0AF71E24BCA5A1005B18B0 /* MCTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCTheme.h; sourceTree = "<group>"; };
 		EB0AF71F24BCA5B5005B18B0 /* MCThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCThemeManager.h; sourceTree = "<group>"; };
 		EB0AF72024BCA5B5005B18B0 /* MCThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCThemeManager.m; sourceTree = "<group>"; };
+		EB7582EA250BD01200321C1C /* MCTestViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCTestViewViewController.h; sourceTree = "<group>"; };
+		EB7582EB250BD01200321C1C /* MCTestViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCTestViewViewController.m; sourceTree = "<group>"; };
+		EBB38C15250C74820034CCDE /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		EBB38C16250C74820034CCDE /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		EBB38C18250C7BD80034CCDE /* UIView+TYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TYExtension.h"; sourceTree = "<group>"; };
+		EBB38C19250C7BD80034CCDE /* UIView+TYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYExtension.m"; sourceTree = "<group>"; };
+		EBB38C1C250C7C5A0034CCDE /* TYUIDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYUIDefines.h; sourceTree = "<group>"; };
+		EBB38C1D250C7D510034CCDE /* UIWindow+TYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+TYExtension.h"; sourceTree = "<group>"; };
+		EBB38C1E250C7D510034CCDE /* UIWindow+TYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+TYExtension.m"; sourceTree = "<group>"; };
+		EBB38C20250C84EF0034CCDE /* jiakao_vip_bg_wgm_banner.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = jiakao_vip_bg_wgm_banner.webp; sourceTree = "<group>"; };
+		EBB38C28250C86E10034CCDE /* UIView+TYNibExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TYNibExtension.h"; sourceTree = "<group>"; };
+		EBB38C29250C86E10034CCDE /* UIView+TYNibExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYNibExtension.m"; sourceTree = "<group>"; };
+		EBB38C2B250CAFAF0034CCDE /* MCUScrollAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCUScrollAnimator.h; sourceTree = "<group>"; };
+		EBB38C2C250CAFAF0034CCDE /* MCUScrollAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCUScrollAnimator.m; sourceTree = "<group>"; };
+		EBB38C2F250CB01C0034CCDE /* MCUNavigationBarScrollingAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCUNavigationBarScrollingAnimator.h; sourceTree = "<group>"; };
+		EBB38C30250CB01C0034CCDE /* MCUNavigationBarScrollingAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCUNavigationBarScrollingAnimator.m; sourceTree = "<group>"; };
+		EBB38C32250CBA550034CCDE /* UIScrollView+TYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TYExtension.h"; sourceTree = "<group>"; };
+		EBB38C33250CBA550034CCDE /* UIScrollView+TYExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TYExtension.m"; sourceTree = "<group>"; };
 		FD733F16A3C57F34BFDFAB64 /* Pods-TYUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TYUIKit_Tests/Pods-TYUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +132,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				77FB36980678C7D8B6C6DE1B /* libPods-TYUIKit_Example.a in Frameworks */,
+				38D6648ED20683A70CBFF611 /* Pods_TYUIKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,20 +143,28 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A3DCC2D96078C22ABAA5FB47 /* libPods-TYUIKit_Tests.a in Frameworks */,
+				378ADE056C28C8CE3D1AC34C /* Pods_TYUIKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B253C8240DE6673F2387B74 /* t1 */ = {
+			isa = PBXGroup;
+			children = (
+				C83B1F190FBB951DFB2170CF /* Assets */,
+			);
+			name = t1;
+			sourceTree = "<group>";
+		};
 		55D3E6AE9E9A4876653A977F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				799D99DAC28C5CB05E591939 /* Pods-TYUIKit_Example.debug.xcconfig */,
-				3D34000AF06E077FDD66B282 /* Pods-TYUIKit_Example.release.xcconfig */,
 				4CEF0E839DB939DC62B45F9E /* Pods-TYUIKit_Tests.debug.xcconfig */,
 				FD733F16A3C57F34BFDFAB64 /* Pods-TYUIKit_Tests.release.xcconfig */,
+				731C7EEFCCFC5E63E7BE2A7C /* Pods-TYUIKit_Example.debug.xcconfig */,
+				D5F0F3D716F55AAEB56D1E24 /* Pods-TYUIKit_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -137,6 +178,8 @@
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				55D3E6AE9E9A4876653A977F /* Pods */,
+				BCBEE2EB8626F73236C042A4 /* on_demand_resources */,
+				EB24074E25013AAD00CF4B19 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,8 +199,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				025F87B3A27800E9FB997A3F /* libPods-TYUIKit_Example.a */,
-				D2FB096A3AF9CDE588DD36DF /* libPods-TYUIKit_Tests.a */,
+				8FCE892B9264C9E3B50A32A9 /* Pods_TYUIKit_Tests.framework */,
+				0B897C51D95505E0AC96C5E8 /* Pods_TYUIKit_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,6 +208,8 @@
 		6003F593195388D20070C39A /* Example for TYUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				EBB38C1B250C7C340034CCDE /* Marcos */,
+				EBB38C14250C745A0034CCDE /* Categories */,
 				EBC1DDE424CA4B4B0086E5F7 /* Resources */,
 				EB0AF72424BCA5ED005B18B0 /* FDExtension */,
 				EB0AF72324BCA5D7005B18B0 /* UIExtension */,
@@ -222,6 +267,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		BCBEE2EB8626F73236C042A4 /* on_demand_resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B253C8240DE6673F2387B74 /* t1 */,
+			);
+			name = on_demand_resources;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB0AF6EC24B8CBE6005B18B0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +299,8 @@
 				EB0AF6F824B94A08005B18B0 /* TYDemoViewController.h */,
 				EB0AF6F924B94A08005B18B0 /* TYDemoViewController.m */,
 				EB0AF6FA24B94A08005B18B0 /* TYDemoViewController.xib */,
+				EB7582EA250BD01200321C1C /* MCTestViewViewController.h */,
+				EB7582EB250BD01200321C1C /* MCTestViewViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -262,6 +318,7 @@
 		EB0AF72224BCA5D0005B18B0 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				EBB38C2E250CAFBC0034CCDE /* ScrollAnimators */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -269,6 +326,14 @@
 		EB0AF72324BCA5D7005B18B0 /* UIExtension */ = {
 			isa = PBXGroup;
 			children = (
+				EBB38C18250C7BD80034CCDE /* UIView+TYExtension.h */,
+				EBB38C19250C7BD80034CCDE /* UIView+TYExtension.m */,
+				EBB38C1D250C7D510034CCDE /* UIWindow+TYExtension.h */,
+				EBB38C1E250C7D510034CCDE /* UIWindow+TYExtension.m */,
+				EBB38C28250C86E10034CCDE /* UIView+TYNibExtension.h */,
+				EBB38C29250C86E10034CCDE /* UIView+TYNibExtension.m */,
+				EBB38C32250CBA550034CCDE /* UIScrollView+TYExtension.h */,
+				EBB38C33250CBA550034CCDE /* UIScrollView+TYExtension.m */,
 			);
 			path = UIExtension;
 			sourceTree = "<group>";
@@ -280,10 +345,48 @@
 			path = FDExtension;
 			sourceTree = "<group>";
 		};
+		EB24074E25013AAD00CF4B19 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				C45DFB60C52468818FAB9723 /* Assets */,
+				307BE870BAECE237816BB6AF /* Assets */,
+				0ED68742C3B12458276033DC /* Assets */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		EBB38C14250C745A0034CCDE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EBB38C15250C74820034CCDE /* UIColor+Extension.h */,
+				EBB38C16250C74820034CCDE /* UIColor+Extension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EBB38C1B250C7C340034CCDE /* Marcos */ = {
+			isa = PBXGroup;
+			children = (
+				EBB38C1C250C7C5A0034CCDE /* TYUIDefines.h */,
+			);
+			path = Marcos;
+			sourceTree = "<group>";
+		};
+		EBB38C2E250CAFBC0034CCDE /* ScrollAnimators */ = {
+			isa = PBXGroup;
+			children = (
+				EBB38C2B250CAFAF0034CCDE /* MCUScrollAnimator.h */,
+				EBB38C2C250CAFAF0034CCDE /* MCUScrollAnimator.m */,
+				EBB38C2F250CB01C0034CCDE /* MCUNavigationBarScrollingAnimator.h */,
+				EBB38C30250CB01C0034CCDE /* MCUNavigationBarScrollingAnimator.m */,
+			);
+			path = ScrollAnimators;
+			sourceTree = "<group>";
+		};
 		EBC1DDE424CA4B4B0086E5F7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EB0AF6F624B94491005B18B0 /* TYUIKit.xcassets */,
+				EBB38C20250C84EF0034CCDE /* jiakao_vip_bg_wgm_banner.webp */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -295,10 +398,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TYUIKit_Example" */;
 			buildPhases = (
-				528C80449E93B5AD9AF5DFD1 /* [CP] Check Pods Manifest.lock */,
+				F20859EBD51CF1FFEE8B731A /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				037AB7E9A51993CE2C533561 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,6 +421,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				2E315F33F69A68567A21EE21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -336,13 +441,14 @@
 			attributes = {
 				CLASSPREFIX = MC;
 				KnownAssetTags = (
-					uikit,
+					t1,
+					t2,
 				);
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = TonyTong1993;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = ZA734EWL3T;
+						ProvisioningStyle = Manual;
 					};
 					6003F5AD195388D20070C39A = {
 						DevelopmentTeam = ZA734EWL3T;
@@ -378,9 +484,9 @@
 				EB0AF6F324B8CBE7005B18B0 /* TYDefaultTableViewCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				EB0AF6FC24B94A09005B18B0 /* TYDemoViewController.xib in Resources */,
+				EBB38C21250C84EF0034CCDE /* jiakao_vip_bg_wgm_banner.webp in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				EB0AF6F724B94491005B18B0 /* TYUIKit.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,32 +495,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				7ED1D9BB0F11210DADFE85C3 /* Assets in Resources */,
+				C4017E50B6F0785F47680120 /* Assets in Resources */,
+				9CFCB81F275FD5DE9623B136 /* Assets in Resources */,
+				23370AD60D3DDA1C9F981310 /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		528C80449E93B5AD9AF5DFD1 /* [CP] Check Pods Manifest.lock */ = {
+		037AB7E9A51993CE2C533561 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example-frameworks.sh",
+				"${PODS_ROOT}/LookinServer/LookinServer.framework",
+				"${PODS_ROOT}/WoodPeckeriOS/WoodPeckeriOS.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TYUIKit_Example-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WoodPeckeriOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E315F33F69A68567A21EE21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYUIKit_Tests/Pods-TYUIKit_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TYUIKit/TYUIKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYUIKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYUIKit_Tests/Pods-TYUIKit_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DF61320B3D46914C85733806 /* [CP] Check Pods Manifest.lock */ = {
@@ -439,6 +567,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F20859EBD51CF1FFEE8B731A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TYUIKit_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -446,14 +596,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB38C34250CBA550034CCDE /* UIScrollView+TYExtension.m in Sources */,
 				EB0AF6F424B8CBE7005B18B0 /* TYDefaultTableViewCell.m in Sources */,
 				EB0AF72124BCA5B5005B18B0 /* MCThemeManager.m in Sources */,
+				EBB38C1F250C7D510034CCDE /* UIWindow+TYExtension.m in Sources */,
 				EB0AF6F524B8CBE7005B18B0 /* TYViewController.m in Sources */,
+				EBB38C1A250C7BD80034CCDE /* UIView+TYExtension.m in Sources */,
+				EBB38C17250C74820034CCDE /* UIColor+Extension.m in Sources */,
 				6003F59E195388D20070C39A /* TYAppDelegate.m in Sources */,
 				EB0AF6FB24B94A09005B18B0 /* TYDemoViewController.m in Sources */,
+				EBB38C31250CB01C0034CCDE /* MCUNavigationBarScrollingAnimator.m in Sources */,
 				EB0AF70C24B97AB6005B18B0 /* TYTestViewController.m in Sources */,
+				EBB38C2D250CAFAF0034CCDE /* MCUScrollAnimator.m in Sources */,
 				EB0AF70924B97AAE005B18B0 /* TYTestTableViewCell.m in Sources */,
+				EB7582EC250BD01200321C1C /* MCTestViewViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				EBB38C2A250C86E10034CCDE /* UIView+TYNibExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,11 +764,12 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 799D99DAC28C5CB05E591939 /* Pods-TYUIKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 731C7EEFCCFC5E63E7BE2A7C /* Pods-TYUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSET_PACK_MANIFEST_URL_PREFIX = "http://192.168.0.101/ORD/tags/";
-				DEVELOPMENT_TEAM = ZA734EWL3T;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYUIKit/TYUIKit-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -621,8 +780,9 @@
 				INFOPLIST_FILE = "TYUIKit/TYUIKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.twh.demo.TYUIKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -630,11 +790,12 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D34000AF06E077FDD66B282 /* Pods-TYUIKit_Example.release.xcconfig */;
+			baseConfigurationReference = D5F0F3D716F55AAEB56D1E24 /* Pods-TYUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSET_PACK_MANIFEST_URL_PREFIX = "http://192.168.0.101/ORD/tags/";
-				DEVELOPMENT_TEAM = ZA734EWL3T;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TYUIKit/TYUIKit-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -645,8 +806,9 @@
 				INFOPLIST_FILE = "TYUIKit/TYUIKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.twh.demo.TYUIKit-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

@@ -30,22 +30,15 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '8.0'
     
-    s.source_files = 'TYUIKit/Classes/**/*','Example/TYUIKit/Controllers/*.{h,m}','Example/TYUIKit/Views/*.{h,m}'
+    s.source_files = 'TYUIKit/Classes/**/*'
         
-    s.subspec 'UIExtensions' do |es|
-        es.source_files = 'TYUIKit/Classes/UIExtensions/*.*'
-        #    es.dependency 'RestKit/CoreData'
-    end
-    
-    s.subspec 'UIWidgets' do |es|
-        es.source_files = 'TYUIKit/Classes/UIWidgets/*.*'
-        #    es.dependency 'RestKit/CoreData'
-    end
-    
-    s.ios.resource_bundle = {
-        'TYUIKit' => ['TYUIKit/Assets/images/*.png','TYUIKit/Assets/xibs/*.xib','Example/TYUIKit/TYUIKit.xcassets','Example/TYUIKit/Views/*.xib','Example/TYUIKit/Controllers/*.xib']
+    s.on_demand_resources = {
+        't1' => ['TYUIKit/Assets/TYUIKit.xcassets'],
     }
     
+    s.pod_target_xcconfig = {
+      'DEFINES_MODULE' => 'YES'
+    }
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'

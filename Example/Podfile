@@ -1,13 +1,17 @@
-#use_frameworks!
-source 'https://gitee.com/tongwanhua/myspec.git'
+use_frameworks!
 platform :ios, '8.0'
 
 target 'TYUIKit_Example' do
-  pod 'TYUIKit/UIWidgets', :path => '../'
+  pod 'YYImage'
+  pod 'WoodPeckeriOS', :configurations => ['Debug']
+  pod 'LookinServer', :configurations => ['Debug']
 
-  target 'TYUIKit_Tests' do
-    inherit! :search_paths
+# for macOS project
+# pod 'WoodpeckerMacOS', :configurations => ['Debug']
+end
 
-    
-  end
+target 'TYUIKit_Tests' do
+  pod 'TYUIKit', :path => '../'
+# for macOS project
+# pod 'WoodpeckerMacOS', :configurations => ['Debug']
 end
