@@ -1,0 +1,6 @@
+ app_identifier("[[org.twh.demo.TYUIKit-Example]]") # The bundle identifier of your app
+ apple_id("[[1019616992@qq.com]]") # Your Apple email address
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

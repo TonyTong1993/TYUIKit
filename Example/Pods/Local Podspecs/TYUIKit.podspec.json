@@ -1,9 +1,9 @@
 {
   "name": "TYUIKit",
   "version": "0.1.4",
-  "summary": "A short description of TYUIKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/TonyTong1993/TYUIKit",
+  "summary": "私有的TYUIKit",
+  "description": "这是私有的UIKit工具如阿福看你自己看你当初v你时刻在你空间在v款家迪你离开.",
+  "homepage": "https://github.com/TonyTong1993/TYUIKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,13 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TYUIKit/Classes/**/*",
-  "on_demand_resources": {
-    "t1": [
-      "TYUIKit/Assets/TYUIKit.xcassets"
-    ]
-  },
-  "pod_target_xcconfig": {
-    "DEFINES_MODULE": "YES"
-  }
+  "source_files": "TYUIKit/Classes/**/*"
 }

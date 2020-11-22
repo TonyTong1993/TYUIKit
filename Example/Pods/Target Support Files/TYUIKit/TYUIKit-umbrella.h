@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "TYUIKit.h"
+#import "TYUIExtension.h"
 #import "UIButton+TYExtension.h"
 #import "TYUISeekBar.h"
 

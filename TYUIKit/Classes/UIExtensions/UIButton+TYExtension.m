@@ -9,4 +9,8 @@
 
 @implementation UIButton (TYExtension)
 
+- (void)tui_background {
+    
+}
+
 @end

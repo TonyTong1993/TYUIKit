@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
     s.name             = 'TYUIKit'
     s.version          = '0.1.4'
-    s.summary          = 'A short description of TYUIKit.'
+    s.summary          = '私有的TYUIKit'
     
     # This description is used to generate tags and improve search results.
     #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,28 +17,28 @@ Pod::Spec.new do |s|
     #   * Write the description between the DESC delimiters below.
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
-    s.description      = <<-DESC
-    TODO: Add long description of the pod here.
+    s.description      = <<-DESC 
+   这是私有的UIKit工具如阿福看你自己看你当初v你时刻在你空间在v款家迪你离开.
     DESC
     
-    s.homepage         = 'https://github.com/TonyTong1993/TYUIKit'
+    s.homepage         = 'https://github.com/TonyTong1993/TYUIKit.git'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'TonyTong1993' => 'tongwanhua1993@163.com' }
-    s.source           = { :git => 'https://github.com/TonyTong1993/TYUIKit.git', :tag => s.version.to_s }
-    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-    
+    if ENV["IS_SOURCE"]
+        s.source           = { :git => 'https://github.com/TonyTong1993/TYUIKit.git', :tag => s.version.to_s }
+    else
+        s.source           = { :git => 'https://github.com/TonyTong1993/TYUIKit.git', :tag => s.version.to_s }
+    end
+   
     s.ios.deployment_target = '8.0'
-    
-    s.source_files = 'TYUIKit/Classes/**/*'
-        
-    s.on_demand_resources = {
-        't1' => ['TYUIKit/Assets/TYUIKit.xcassets'],
-    }
-    
-    s.pod_target_xcconfig = {
-      'DEFINES_MODULE' => 'YES'
-    }
+    if ENV["IS_SOURCE"]
+        s.source_files = 'TYUIKit/Classes/**/*' 
+    else
+        s.source_files = 'Pod/Product/include/TYUIKitBinary/*'
+        s.public_header_files = 'Pod/Product/include/TYUIKitBinary/*.h'
+        s.ios.vendored_libraries = 'Pod/Product/lib/libTYUIKit.a'
+    end
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'

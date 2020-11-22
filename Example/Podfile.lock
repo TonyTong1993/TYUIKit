@@ -1,33 +1,16 @@
 PODS:
-  - LookinServer (1.0.0)
   - TYUIKit (0.1.4)
-  - WoodPeckeriOS (1.2.6)
-  - YYImage (1.0.4):
-    - YYImage/Core (= 1.0.4)
-  - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
-  - LookinServer
   - TYUIKit (from `../`)
-  - WoodPeckeriOS
-  - YYImage
-
-SPEC REPOS:
-  trunk:
-    - LookinServer
-    - WoodPeckeriOS
-    - YYImage
 
 EXTERNAL SOURCES:
   TYUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
-  TYUIKit: 60e0feb5716482946d0bc030307f01595a174270
-  WoodPeckeriOS: c24e721bf0914ac4149e3914df64e46277c82417
-  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  TYUIKit: 6e22a36a8ba9a42a738c1768d3ed1f9f005701ee
 
-PODFILE CHECKSUM: 04333ce1861d9a01af05b17fb1967720317ca398
+PODFILE CHECKSUM: 1f97bb2e549b1d0cda65f9e31cd042bf485f6cda
 
-COCOAPODS: 1.10.0.beta.2
+COCOAPODS: 1.10.0

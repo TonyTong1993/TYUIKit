@@ -8,6 +8,8 @@
 
 #import "TYAppDelegate.h"
 #import "TYViewController.h"
+#import <UIKit/UIKit.h>
+#import <TYUIKit/TYUIKit.h>
 @implementation TYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -18,7 +20,6 @@
     UINavigationController *rootViewController = [[UINavigationController alloc] initWithRootViewController:mainVC];
     self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
-    
     return YES;
 }
 

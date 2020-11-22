@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIButton (TYExtension)
-
+- (void)tui_background;
 @end
 
 NS_ASSUME_NONNULL_END
