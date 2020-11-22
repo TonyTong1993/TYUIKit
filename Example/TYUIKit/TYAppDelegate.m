@@ -20,6 +20,8 @@
     UINavigationController *rootViewController = [[UINavigationController alloc] initWithRootViewController:mainVC];
     self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
+    UIButton *btn;
+    [btn tui_background];
     return YES;
 }
 

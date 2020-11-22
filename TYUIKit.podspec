@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'TYUIKit'
-    s.version          = '0.1.4'
+    s.version          = '0.1.5'
     s.summary          = '私有的TYUIKit'
     
     # This description is used to generate tags and improve search results.
@@ -25,16 +25,20 @@ Pod::Spec.new do |s|
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'TonyTong1993' => 'tongwanhua1993@163.com' }
-    if ENV["IS_SOURCE"]
+    if ENV["IS_SOURCE"] == 'true'
+        puts "访问了源码"
         s.source           = { :git => 'https://github.com/TonyTong1993/TYUIKit.git', :tag => s.version.to_s }
     else
+        puts "访问了binary"
         s.source           = { :git => 'https://github.com/TonyTong1993/TYUIKit.git', :tag => s.version.to_s }
     end
    
     s.ios.deployment_target = '8.0'
-    if ENV["IS_SOURCE"]
+    if ENV["IS_SOURCE"] == 'true'
+        puts "访问了源码"
         s.source_files = 'TYUIKit/Classes/**/*' 
     else
+        puts "访问了binary"
         s.source_files = 'Pod/Product/include/TYUIKitBinary/*'
         s.public_header_files = 'Pod/Product/include/TYUIKitBinary/*.h'
         s.ios.vendored_libraries = 'Pod/Product/lib/libTYUIKit.a'

@@ -1,6 +1,6 @@
 {
   "name": "TYUIKit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "私有的TYUIKit",
   "description": "这是私有的UIKit工具如阿福看你自己看你当初v你时刻在你空间在v款家迪你离开.",
   "homepage": "https://github.com/TonyTong1993/TYUIKit.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/TonyTong1993/TYUIKit.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
