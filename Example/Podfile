@@ -1,6 +1,10 @@
-use_frameworks!
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+#use_frameworks!
 platform :ios, '8.0'
 target 'TYUIKit_Example' do
   pod 'TYUIKit', :path => '../'
+  pod 'MJRefresh'
+  pod 'LookinServer', :configurations => ['Debug']
+  pod 'lottie-ios','2.5.3'
 end
 

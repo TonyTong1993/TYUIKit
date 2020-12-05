@@ -8,6 +8,8 @@
 
 #import "TYAppDelegate.h"
 #import "TYViewController.h"
+#import "TYTestViewController.h"
+#import "TYLottieTestViewController.h"
 #import <UIKit/UIKit.h>
 #import <TYUIKit/TYUIKit.h>
 @implementation TYAppDelegate
@@ -16,12 +18,10 @@
 {
         // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    TYViewController *mainVC = [[TYViewController alloc] init];
+    TYTestViewController *mainVC = [[TYTestViewController alloc] init];
     UINavigationController *rootViewController = [[UINavigationController alloc] initWithRootViewController:mainVC];
     self.window.rootViewController = rootViewController;
     [self.window makeKeyAndVisible];
-    UIButton *btn;
-    [btn tui_background];
     return YES;
 }
 

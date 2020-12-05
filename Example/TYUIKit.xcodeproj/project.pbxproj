@@ -21,7 +21,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		38D6648ED20683A70CBFF611 /* Pods_TYUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B897C51D95505E0AC96C5E8 /* Pods_TYUIKit_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -34,6 +33,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6314F1BA44B33B1345D1248F /* libPods-TYUIKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 327F560F0DD6EA98B1F2275C /* libPods-TYUIKit_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		EB0AF6F324B8CBE7005B18B0 /* TYDefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB0AF6ED24B8CBE6005B18B0 /* TYDefaultTableViewCell.xib */; };
 		EB0AF6F424B8CBE7005B18B0 /* TYDefaultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0AF6EE24B8CBE6005B18B0 /* TYDefaultTableViewCell.m */; };
@@ -50,6 +50,13 @@
 		EB1CB16A2569684A00441972 /* TYUISeekBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB1CB1632569680F00441972 /* TYUISeekBar.h */; };
 		EB1CB1FA256A08C100441972 /* TYUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB1CB1F9256A089E00441972 /* TYUIKit.h */; };
 		EB1CB202256A0A0300441972 /* TYUIExtension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EB1CB1FE256A097E00441972 /* TYUIExtension.h */; };
+		EB1CB2822579367100441972 /* TYLottieTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1CB2812579367100441972 /* TYLottieTestViewController.m */; };
+		EB1CB2892579375400441972 /* pull_down.json in Resources */ = {isa = PBXBuildFile; fileRef = EB1CB2862579375300441972 /* pull_down.json */; };
+		EB1CB28A2579375400441972 /* pull_all.json in Resources */ = {isa = PBXBuildFile; fileRef = EB1CB2872579375400441972 /* pull_all.json */; };
+		EB1CB28B2579375400441972 /* pull_up.json in Resources */ = {isa = PBXBuildFile; fileRef = EB1CB2882579375400441972 /* pull_up.json */; };
+		EB1CB2FF257B520800441972 /* TYRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1CB2FE257B520800441972 /* TYRefreshHeader.m */; };
+		EB1CB308257B616400441972 /* UIScrollView+TYRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1CB307257B616400441972 /* UIScrollView+TYRefresh.m */; };
+		EB1CB31A257B745600441972 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1CB319257B745600441972 /* UIImage+Color.m */; };
 		EB7582EC250BD01200321C1C /* MCTestViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7582EB250BD01200321C1C /* MCTestViewViewController.m */; };
 		EBB38C17250C74820034CCDE /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB38C16250C74820034CCDE /* UIColor+Extension.m */; };
 		EBB38C1A250C7BD80034CCDE /* UIView+TYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB38C19250C7BD80034CCDE /* UIView+TYExtension.m */; };
@@ -99,8 +106,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B897C51D95505E0AC96C5E8 /* Pods_TYUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF1642D7F61BC0413FAC614 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		327F560F0DD6EA98B1F2275C /* libPods-TYUIKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYUIKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TYUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,6 +153,18 @@
 		EB1CB1642569680F00441972 /* TYUISeekBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYUISeekBar.m; sourceTree = "<group>"; };
 		EB1CB1F9256A089E00441972 /* TYUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYUIKit.h; path = ../../TYUIKit/Classes/TYUIKit.h; sourceTree = "<group>"; };
 		EB1CB1FE256A097E00441972 /* TYUIExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYUIExtension.h; sourceTree = "<group>"; };
+		EB1CB2802579367100441972 /* TYLottieTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLottieTestViewController.h; sourceTree = "<group>"; };
+		EB1CB2812579367100441972 /* TYLottieTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLottieTestViewController.m; sourceTree = "<group>"; };
+		EB1CB2862579375300441972 /* pull_down.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pull_down.json; sourceTree = "<group>"; };
+		EB1CB2872579375400441972 /* pull_all.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pull_all.json; sourceTree = "<group>"; };
+		EB1CB2882579375400441972 /* pull_up.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pull_up.json; sourceTree = "<group>"; };
+		EB1CB2FD257B520800441972 /* TYRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRefreshHeader.h; sourceTree = "<group>"; };
+		EB1CB2FE257B520800441972 /* TYRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYRefreshHeader.m; sourceTree = "<group>"; };
+		EB1CB306257B616400441972 /* UIScrollView+TYRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TYRefresh.h"; sourceTree = "<group>"; };
+		EB1CB307257B616400441972 /* UIScrollView+TYRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TYRefresh.m"; sourceTree = "<group>"; };
+		EB1CB30C257B61F900441972 /* TYRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRefreshControl.h; sourceTree = "<group>"; };
+		EB1CB318257B745600441972 /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		EB1CB319257B745600441972 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		EB7582EA250BD01200321C1C /* MCTestViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCTestViewViewController.h; sourceTree = "<group>"; };
 		EB7582EB250BD01200321C1C /* MCTestViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCTestViewViewController.m; sourceTree = "<group>"; };
 		EBB38C15250C74820034CCDE /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
@@ -176,7 +195,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				38D6648ED20683A70CBFF611 /* Pods_TYUIKit_Example.framework in Frameworks */,
+				6314F1BA44B33B1345D1248F /* libPods-TYUIKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +258,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0B897C51D95505E0AC96C5E8 /* Pods_TYUIKit_Example.framework */,
+				327F560F0DD6EA98B1F2275C /* libPods-TYUIKit_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -334,6 +353,8 @@
 				EBED17162534A871005A65C6 /* TYCollectionViewController.h */,
 				EBED17172534A871005A65C6 /* TYCollectionViewController.m */,
 				EBED17182534A871005A65C6 /* TYCollectionViewController.xib */,
+				EB1CB2802579367100441972 /* TYLottieTestViewController.h */,
+				EB1CB2812579367100441972 /* TYLottieTestViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -351,6 +372,7 @@
 		EB0AF72224BCA5D0005B18B0 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				EB1CB2FC257B51A900441972 /* PullRefresh */,
 				EBB38C2E250CAFBC0034CCDE /* ScrollAnimators */,
 			);
 			path = UIKit;
@@ -409,11 +431,25 @@
 			path = ../../TYUIKit/Classes/UIWidgets;
 			sourceTree = "<group>";
 		};
+		EB1CB2FC257B51A900441972 /* PullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EB1CB2FD257B520800441972 /* TYRefreshHeader.h */,
+				EB1CB2FE257B520800441972 /* TYRefreshHeader.m */,
+				EB1CB306257B616400441972 /* UIScrollView+TYRefresh.h */,
+				EB1CB307257B616400441972 /* UIScrollView+TYRefresh.m */,
+				EB1CB30C257B61F900441972 /* TYRefreshControl.h */,
+			);
+			path = PullRefresh;
+			sourceTree = "<group>";
+		};
 		EBB38C14250C745A0034CCDE /* Categories */ = {
 			isa = PBXGroup;
 			children = (
 				EBB38C15250C74820034CCDE /* UIColor+Extension.h */,
 				EBB38C16250C74820034CCDE /* UIColor+Extension.m */,
+				EB1CB318257B745600441972 /* UIImage+Color.h */,
+				EB1CB319257B745600441972 /* UIImage+Color.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -440,6 +476,9 @@
 		EBC1DDE424CA4B4B0086E5F7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EB1CB2882579375400441972 /* pull_up.json */,
+				EB1CB2862579375300441972 /* pull_down.json */,
+				EB1CB2872579375400441972 /* pull_all.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -456,7 +495,8 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				EB1CB0FE2568FD6400441972 /* Embed Frameworks */,
-				12604458A7051860429F4497 /* [CP] Embed Pods Frameworks */,
+				5F68EC9B711812C68DE2AF53 /* [CP] Copy Pods Resources */,
+				AC7D303D077BD60B6A94E700 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -559,10 +599,13 @@
 			files = (
 				EB0AF70324B97A3B005B18B0 /* TYTestTableViewCell.xib in Resources */,
 				EB0AF6F324B8CBE7005B18B0 /* TYDefaultTableViewCell.xib in Resources */,
+				EB1CB2892579375400441972 /* pull_down.json in Resources */,
+				EB1CB28B2579375400441972 /* pull_up.json in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				EB0AF6FC24B94A09005B18B0 /* TYDemoViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				EB1CB28A2579375400441972 /* pull_all.json in Resources */,
 				EBED171A2534A871005A65C6 /* TYCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,18 +621,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12604458A7051860429F4497 /* [CP] Embed Pods Frameworks */ = {
+		5F68EC9B711812C68DE2AF53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7D303D077BD60B6A94E700 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TYUIKit_Example/Pods-TYUIKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TYUIKit/TYUIKit.framework",
+				"${PODS_ROOT}/LookinServer/LookinServer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -643,6 +704,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBB38C34250CBA550034CCDE /* UIScrollView+TYExtension.m in Sources */,
+				EB1CB2FF257B520800441972 /* TYRefreshHeader.m in Sources */,
 				EB0AF6F424B8CBE7005B18B0 /* TYDefaultTableViewCell.m in Sources */,
 				EB0AF72124BCA5B5005B18B0 /* MCThemeManager.m in Sources */,
 				EBB38C1F250C7D510034CCDE /* UIWindow+TYExtension.m in Sources */,
@@ -650,14 +712,17 @@
 				EBB38C1A250C7BD80034CCDE /* UIView+TYExtension.m in Sources */,
 				EBB38C17250C74820034CCDE /* UIColor+Extension.m in Sources */,
 				6003F59E195388D20070C39A /* TYAppDelegate.m in Sources */,
+				EB1CB31A257B745600441972 /* UIImage+Color.m in Sources */,
 				EB0AF6FB24B94A09005B18B0 /* TYDemoViewController.m in Sources */,
 				EBB38C31250CB01C0034CCDE /* MCUNavigationBarScrollingAnimator.m in Sources */,
 				EB0AF70C24B97AB6005B18B0 /* TYTestViewController.m in Sources */,
 				EBB38C2D250CAFAF0034CCDE /* MCUScrollAnimator.m in Sources */,
+				EB1CB2822579367100441972 /* TYLottieTestViewController.m in Sources */,
 				EB0AF70924B97AAE005B18B0 /* TYTestTableViewCell.m in Sources */,
 				EB7582EC250BD01200321C1C /* MCTestViewViewController.m in Sources */,
 				EBED17192534A871005A65C6 /* TYCollectionViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				EB1CB308257B616400441972 /* UIScrollView+TYRefresh.m in Sources */,
 				EBB38C2A250C86E10034CCDE /* UIView+TYNibExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

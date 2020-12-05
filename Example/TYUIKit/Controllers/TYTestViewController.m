@@ -7,8 +7,13 @@
 
 #import "TYTestViewController.h"
 #import "TYTestTableViewCell.h"
+#import "TYRefreshHeader.h"
+#import "UIColor+Extension.h"
+#import "UIScrollView+TYRefresh.h"
 @interface TYTestViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic,assign) CGFloat progress;
+@property (nonatomic,strong) TYRefreshHeader *refreshHeader;
 @end
 
 @implementation TYTestViewController
@@ -26,7 +31,15 @@
     [self.tableView registerNib:nib forCellReuseIdentifier:@"TYTestTableViewCell"];
     self.tableView.dataSource = self;
     self.tableView.rowHeight = 80;
+    self.progress = 0.0f;
+    TYRefreshHeader *refreshContorl = [TYRefreshHeader headerWithRefreshingBlock:^{
+        
+    }];
+    [self.tableView addHeaderRefreshControl:refreshContorl];
+    self.refreshHeader = refreshContorl;
 }
+
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;

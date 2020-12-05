@@ -18,5 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TYUIKit/Classes/**/*"
+  "source_files": "Pod/Product/include/TYUIKitBinary/*",
+  "public_header_files": "Pod/Product/include/TYUIKitBinary/*.h",
+  "ios": {
+    "vendored_libraries": "Pod/Product/lib/libTYUIKit.a"
+  }
 }
