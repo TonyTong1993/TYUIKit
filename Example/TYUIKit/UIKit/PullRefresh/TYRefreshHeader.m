@@ -16,6 +16,7 @@
 @property (nonatomic,strong) UIProgressView *progressView;
 @property (nonatomic, strong) UIImageView *carImgView;
 @property (nonatomic,assign) CGFloat progress;
+@property (nonatomic,assign) BOOL isFirstAnimation;//是否是第一次执行动画
 @end
 @implementation TYRefreshHeader
 
@@ -39,13 +40,11 @@
     [self addSubview:self.backgroundImageView];
     self.titleLabel = [[UILabel alloc] init];
     self.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Medium" size:15];
-    self.titleLabel.text = @"已实时同步至12月5最新官方题库";
     self.titleLabel.textColor = [UIColor blackColor];
     self.titleLabel.textAlignment = NSTextAlignmentLeft;
     [self addSubview:self.titleLabel];
     self.slogonLabel = [[UILabel alloc] init];
     self.slogonLabel.font = [UIFont systemFontOfSize:11.5];
-    self.slogonLabel.text = @"请尽快更新练习，早日拿本";
     self.slogonLabel.textColor = [UIColor grayColor];
     [self addSubview:self.slogonLabel];
     self.progressView = [[UIProgressView alloc] initWithProgressViewStyle:UIProgressViewStyleBar];
@@ -60,7 +59,7 @@
     self.progressView.frame = frame;
     self.progressView.trackTintColor = [UIColor whiteColor];
     self.carImgView.frame = CGRectMake(15, 0, 90, 29);
-    self.progress = 0.5;
+    self.isFirstAnimation = YES;
 }
 
 - (void)placeSubviews {
@@ -75,7 +74,6 @@
     self.carImgView.mj_y = self.progressView.mj_y - 29;
 }
 
-
 - (void)startAnimataion {
     self.progress = 0.5;
     [self startAnimataion:self.progress];
@@ -83,7 +81,8 @@
 
 - (void)startAnimataion:(CGFloat)progress {
     if (progress > 1) {
-        [self endRefreshing];
+        [self adjuestTitleAndSlogonIfNeeded];
+        [self performSelector:@selector(endRefreshing) withObject:nil afterDelay:0.4];
         return;
     }
     [UIView animateWithDuration:1.5 animations:^{
@@ -107,6 +106,21 @@
     self.progress = [self offsetProgress];
     [self.progressView setProgress:self.progress];
     self.carImgView.mj_x = 15;
+    [self adjuestTitleAndSlogonIfNeeded];
+}
+
+- (void)adjuestTitleAndSlogonIfNeeded {
+    NSString *title;
+    NSString *slogon;
+    if ([self isNewestTiku]) {
+        title = self.isFirstAnimation ? @"正在连接武汉交通管理最新题库" : @"已为您更新同步至12月武汉最新官方题库";
+        slogon = self.isFirstAnimation ? @"实时更新，快人一步" : @"请抓紧练习，早日拿本";
+    } else {
+        title = @"已实时同步至12月武汉最新官方题库";
+        slogon = @"请尽快更新练习，早日拿本";
+    }
+    self.titleLabel.text = title;
+    self.slogonLabel.text = slogon;
 }
 
 - (void)didMoveToSuperview {
@@ -123,7 +137,7 @@
 
 - (void)setState:(MJRefreshState)state {
     MJRefreshCheckState
-    // 根据状态做事情
+        // 根据状态做事情
     if (state == MJRefreshStateIdle) {
         if (oldState == MJRefreshStateRefreshing) {
             [self performSelector:@selector(resetToDefault) withObject:nil afterDelay:0.4];
@@ -131,6 +145,7 @@
             [self resetToDefault];
         }
     } else if (state == MJRefreshStateRefreshing) {
+        self.isFirstAnimation = NO;
         [self startAnimataion];
     }
 }
@@ -149,5 +164,10 @@
 - (CGFloat)pullLoadingHeight {
     return 115;
 }
+
+- (BOOL)isNewestTiku {
+    return NO;
+}
+
 
 @end
